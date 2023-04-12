@@ -1,0 +1,45 @@
+# Binary files
+.Ds_Store
+
+# Cache
+[Bb]in
+[Oo]bj
+
+## AL
+# launch.json and settings.json folder
+.vscode/
+
+# Cache folder
+.alcache/
+
+# Symbols folder
+.alpackages/
+.packages/
+
+#Snapshots folder
+.snapshots/
+
+#Templates  folder
+.altemplates/
+
+#Testing Output folder
+.output/
+
+#Extension App-file
+*.app
+
+#Rapid Application Development File
+rad.json
+
+#Translation Base-file
+*.g.xlf
+
+#License-file
+*.flf
+
+#Test results file
+TestResults.xml
+
+# BcptTestResultsFile
+bcptTestResults.json
+
