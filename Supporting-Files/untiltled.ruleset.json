@@ -1,0 +1,26 @@
+{
+    "name": "AppSource Rules",
+    "description": "The rules for the application.",
+    "rules": [
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "Manifest property is required for AppSource submission."
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "The property 'url' must be set to a valid URL."
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "The app.json file must specify an Azure Application Insights resource."
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "The ID range assigned to the extension must be within the allowed range."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"path": "MainApp"
+		},
+		{
+			"path": "TestApp"
+		},
+		{
+			"path": "Supporting-Files"
+		}
+	],
+	"settings": {
+		"al.backgroundCodeAnalysis": true,
+		"al.browser": "Chrome",
+		"al.codeAnalyzers": [
+			"${AppSourceCop}",
+			"${CodeCop}",
+			"${PerTenantExtensionCop}",
+			"${UICop}"
+		],
+		"al.compilationOptions": {
+			"generateReportLayout": true
+		},
+		"al.enableCodeAnalysis": true,
+		"al.incrementalBuild": false,
+		"al.incognito": true,
+		"al.packageCachePath": "..\\Supporting-Files\\.alpackages",
+		"al.snapshotDebuggingPath": "..\\Supporting-Files\\.snapshot",
+		"al.snapshotOutputPath": "..\\Supporting-Files\\.snapshots",
+		"al.ruleSetPath": "..\\Supporting-Files\\untiltled.ruleset.json",
+		"editor.renderWhitespace": "all",
+		"powershell.cwd": "c:\\Users\\brad\\Documents\\OneDrive - Tigunia, LLC\\Presentations\\DirectionsNA 2023\\Introduction-to-Test-Automation-in-Business-Central\\Supporting-Files"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "BC22-Test",
+				"request": "launch",
+				"type": "al",
+				"server": "http://BC22-Test",
+				"serverInstance": "BC",
+				"authentication": "UserPassword",
+				"startupObjectId": 22,
+				"startupObjectType": "Page",
+				"breakOnError": true,
+				"launchBrowser": true,
+				"enableLongRunningSqlStatements": true,
+				"enableSqlInformationDebugger": true,
+				"tenant": "default"
+			}
+		],
+		"compounds": []
+	}
+}
