@@ -9,7 +9,7 @@ Automated testing in Business Central involves creating a set of test cases that
 # Demonstration Contents
 [Main App](/MainApp)  
 [Test App](/TestApp)  
-[Sample Scripts](/Introduction-to-Test-Automation-in-Business-Central/Powershell)  
+[Sample Scripts](/Introduction-to-Test-Automation-in-Business-Central/Supporting-Files/Powershell)  
 [Presentation PDF](/Supporting-Files/Documents/Introduction-to-Test-Automation-in-Business-Central.pdf)  
 
 
