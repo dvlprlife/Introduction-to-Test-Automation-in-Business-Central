@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": "MainApp"
+		},
+		{
+			"path": "TestApp"
+		},
+		{
+			"path": "Supporting-Files"
+		}
+	],
+	"settings": {
+		"al.browser": "Chrome",
+		"al.backgroundCodeAnalysis": false,
+		"al.incognito": true,
+		"al.codeAnalyzers": [
+			"${AppSourceCop}",
+			"${CodeCop}",
+			"${PerTenantExtensionCop}",
+			"${UICop}"
+		],
+		"al.compilationOptions": {
+			"generateReportLayout": true
+		},
+		"al.enableCodeAnalysis": true,
+		"al.incrementalBuild": false,
+		"al.packageCachePath": "..\\Supporting-Files\\.alpackages",
+		"al.ruleSetPath": "..\\Supporting-Files\\untitled.ruleset.json",
+		"al.snapshotDebuggingPath": "..\\Supporting-Files\\.snapshot",
+		"al.snapshotOutputPath": "..\\Supporting-Files\\.snapshots",
+		"editor.renderWhitespace": "all",
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "BC24",
+				"request": "launch",
+				"type": "al",
+				"server": "http://BC24",
+				"serverInstance": "BC",
+				"authentication": "UserPassword",
+				"breakOnError": true,
+				"launchBrowser": true,
+				"enableLongRunningSqlStatements": true,
+				"enableSqlInformationDebugger": true,
+				"tenant": "default"
+			}
+		],
+		"compounds": []
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "id": "a3c9c3aa-6c42-4cba-aaea-33d9a155f1b1",
+    "name": "MainApp",
+    "publisher": "Default publisher",
+    "version": "24.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "24.0.0.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "13.0",
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith"
+    ]
+}

@@ -1,0 +1,33 @@
+# Binary files
+.Ds_Store
+cache_*
+~$*
+
+# Cache
+[Bb]in
+[Oo]bj
+
+# Editors
+.vscode
+
+# Files
+debug.log
+
+# AL Files
+*.app
+*.bclicense
+*.flf
+*.g.xlf
+bcptTestResults*.json
+BuildOutput.txt
+rad.json
+TestResults*.xml
+Thumbs.db
+.alcache/
+.alpackages/
+.altemplates/
+.buildartifacts/
+.dependencies/
+.output/
+.packages/
+.snapshots/

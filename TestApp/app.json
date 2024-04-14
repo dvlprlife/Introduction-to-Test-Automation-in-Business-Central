@@ -1,0 +1,64 @@
+{
+  "id": "471a3395-d3bb-4a3d-a693-c6a3dae517c5",
+  "name": "TestApp",
+  "publisher": "Default publisher",
+  "version": "24.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "a3c9c3aa-6c42-4cba-aaea-33d9a155f1b1",
+      "name": "MainApp",
+      "publisher": "Default publisher",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+      "name": "Tests-TestLibraries",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "9856ae4f-d1a7-46ef-89bb-6ef056398228",
+      "publisher": "Microsoft",
+      "name": "System Application Test Library",
+      "version": "24.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 80000,
+      "to": 80049
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ]
+}
