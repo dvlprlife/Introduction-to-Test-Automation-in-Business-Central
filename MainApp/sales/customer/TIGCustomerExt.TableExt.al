@@ -1,7 +1,6 @@
 namespace Tigunia.Sales.Customer;
 
 using Microsoft.Sales.Customer;
-using Tigunia.Sales;
 
 tableextension 50100 "TIG Customer Ext" extends Customer
 {
