@@ -1,6 +1,6 @@
 ﻿############################################################################################################
 # Set these values
-$containerName = 'BC24'
+$containerName = 'BC'
 $userName = 'admin'
 $password = 'password'
 $testSuite = 'DEFAULT'

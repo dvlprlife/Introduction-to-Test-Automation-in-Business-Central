@@ -1,7 +1,7 @@
-﻿ ############################################################################################################
+﻿  ############################################################################################################
 # Set these values
 
-$containername = 'BC'
+$containerName = 'BC'
 $version = 25
 $UserName = 'admin'
 $Password = 'password'
@@ -24,13 +24,14 @@ New-BCContainer  `
     -alwaysPull `
     -artifactUrl $artifactUrl `
     -auth NavUserPassword `
-    -containerName $containername `
+    -containerName $containerName `
     -Credential $Credential `
     -isolation hyperv `
+    -includeTestToolkit `
+    -memoryLimit 8G `
     -updateHosts
 
 $stopTime = [DateTime]::Now
 $timeSpend = ($stopTime - $startTime).TotalSeconds
 
-Write-Host -ForegroundColor Green "$($stopTime) : $($scriptTitle) took $($timespend) seconds"
- 
+Write-Host -ForegroundColor Green "$($stopTime) : $($scriptTitle) took $($timespend) seconds" 
