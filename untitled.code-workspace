@@ -22,7 +22,7 @@
 		"al.compilationOptions": {
 			"generateReportLayout": true
 		},
-		"al.enableCodeAnalysis": true,
+		"al.enableCodeAnalysis": false,
 		"al.incrementalBuild": false,
 		"al.incognito": false,
 		"al.packageCachePath": "../Supporting-Files/.alpackages",
